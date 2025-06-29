@@ -1,0 +1,198 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "email": "doctor@example.com",
+            "password": "doctor123",
+            "type": "doctor",
+            "name": "Dr. Chanchal Gupta",
+            "specialization": "Obstetrician-gynecologist",
+            "hospital": "Jeevan Rekha Hospital, GT Road, Kanpur",
+            "phone": "094386 89480",
+            "rating": 4.9
+        },
+        {
+            "id": 2,
+            "email": "dr.archana@example.com",
+            "password": "doctor123",
+            "type": "doctor",
+            "name": "Dr. Archana Trivedi",
+            "specialization": "Obstetrician-gynecologist",
+            "hospital": "Regency Hospital, Govind Nagar, Kanpur",
+            "phone": "097601 57560",
+            "rating": 4.9
+        },
+        {
+            "id": 3,
+            "email": "dr.kirti@example.com",
+            "password": "doctor123",
+            "type": "doctor",
+            "name": "Dr. Kirti Gupta",
+            "specialization": "Gynecologist",
+            "hospital": "K Care Hospital, Mall Road, Kanpur",
+            "phone": "082990 90227",
+            "rating": 5.0
+        },
+        {
+            "id": 4,
+            "email": "dr.astha@example.com",
+            "password": "doctor123",
+            "type": "doctor",
+            "name": "Dr. Astha Singh",
+            "specialization": "Obstetrician-gynecologist & IVF Specialist",
+            "hospital": "Astha IVF & Fertility Centre, Pandu Nagar, Kanpur",
+            "phone": "087663 40341",
+            "rating": 4.8
+        },
+        {
+            "id": 5,
+            "email": "dr.rashmi@example.com",
+            "password": "doctor123",
+            "type": "doctor",
+            "name": "Dr. Rashmi Gupta",
+            "specialization": "Obstetrician-gynecologist",
+            "hospital": "Near New Shanti Niketan Sweets, Kanpur",
+            "phone": "090587 58787",
+            "rating": 4.9
+        },
+        {
+            "id": 6,
+            "email": "patient1@example.com",
+            "password": "patient123",
+            "type": "patient",
+            "name": "Priya Sharma",
+            "dob": "1992-08-15",
+            "dueDate": "2023-11-20",
+            "bloodType": "B+",
+            "phone": "9876543210",
+            "address": "12-A, Civil Lines, Kanpur"
+        },
+        {
+            "id": 7,
+            "email": "patient2@example.com",
+            "password": "patient123",
+            "type": "patient",
+            "name": "Ananya Patel",
+            "dob": "1990-03-22",
+            "dueDate": "2023-12-05",
+            "bloodType": "O+",
+            "phone": "8765432109",
+            "address": "45, Swaroop Nagar, Kanpur"
+        },
+        {
+            "id": 8,
+            "email": "patient3@example.com",
+            "password": "patient123",
+            "type": "patient",
+            "name": "Divya Singh",
+            "dob": "1988-11-30",
+            "dueDate": "2024-01-10",
+            "bloodType": "A+",
+            "phone": "7654321098",
+            "address": "78, Kakadeo, Kanpur"
+        },
+        {
+            "id": 9,
+            "email": "patient4@example.com",
+            "password": "patient123",
+            "type": "patient",
+            "name": "Neha Verma",
+            "dob": "1995-05-18",
+            "dueDate": "2024-02-15",
+            "bloodType": "AB+",
+            "phone": "6543210987",
+            "address": "33, Barra, Kanpur"
+        },
+        {
+            "id": 10,
+            "email": "patient5@example.com",
+            "password": "patient123",
+            "type": "patient",
+            "name": "Riya Gupta",
+            "dob": "1993-07-25",
+            "dueDate": "2024-03-20",
+            "bloodType": "B-",
+            "phone": "9432109876",
+            "address": "90, Kalyanpur, Kanpur"
+        }
+    ],
+    "appointments": [
+        {
+            "id": 1,
+            "patientId": 6,
+            "patientName": "Priya Sharma",
+            "doctorId": 1,
+            "doctorName": "Dr. Chanchal Gupta",
+            "date": "2023-10-15",
+            "time": "10:00",
+            "type": "Routine Checkup",
+            "notes": "First trimester screening"
+        },
+        {
+            "id": 2,
+            "patientId": 7,
+            "patientName": "Ananya Patel",
+            "doctorId": 2,
+            "doctorName": "Dr. Archana Trivedi",
+            "date": "2023-10-16",
+            "time": "14:30",
+            "type": "Ultrasound",
+            "notes": "20-week anatomy scan"
+        },
+        {
+            "id": 3,
+            "patientId": 6,
+            "patientName": "Priya Sharma",
+            "doctorId": 3,
+            "doctorName": "Dr. Kirti Gupta",
+            "date": "2023-10-20",
+            "time": "09:15",
+            "type": "Nutrition Counseling",
+            "notes": "Discuss dietary needs"
+        },
+        {
+            "id": 4,
+            "patientId": 7,
+            "patientName": "Ananya Patel",
+            "doctorId": 4,
+            "doctorName": "Dr. Astha Singh",
+            "date": "2023-10-25",
+            "time": "11:00",
+            "type": "Routine Checkup",
+            "notes": "Glucose screening"
+        },
+        {
+            "id": 5,
+            "patientId": 8,
+            "patientName": "Divya Singh",
+            "doctorId": 5,
+            "doctorName": "Dr. Rashmi Gupta",
+            "date": "2023-11-05",
+            "time": "15:30",
+            "type": "IVF Consultation",
+            "notes": "Initial fertility assessment"
+        },
+        {
+            "id": 6,
+            "patientId": 9,
+            "patientName": "Neha Verma",
+            "doctorId": 1,
+            "doctorName": "Dr. Chanchal Gupta",
+            "date": "2023-11-10",
+            "time": "12:00",
+            "type": "Prenatal Checkup",
+            "notes": "Second trimester"
+        },
+        {
+            "id": 7,
+            "patientId": 10,
+            "patientName": "Riya Gupta",
+            "doctorId": 2,
+            "doctorName": "Dr. Archana Trivedi",
+            "date": "2023-11-15",
+            "time": "16:45",
+            "type": "PCOS Management",
+            "notes": "Follow-up on medication"
+        }
+    ]
+}

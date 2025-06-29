@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prenatal Nurture - Doctor Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Prenatal Nurture - Doctor Dashboard</h1>
+        <nav>
+            <a href="#" id="logoutBtn" class="button">Logout</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="appointments-section">
+            <h2>Upcoming Appointments</h2>
+            <div id="appointmentsList" class="appointments-grid"></div>
+        </section>
+        
+        <section class="stats-section">
+            <h2>Appointment Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Today</h3>
+                    <p id="todayCount">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>This Week</h3>
+                    <p id="weekCount">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>This Month</h3>
+                    <p id="monthCount">0</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Prenatal Nurture. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
